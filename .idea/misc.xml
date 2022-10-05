@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sarao/AndroidStudioProjects/Botoneameste/app/src/main/res/layout/activity_categoria2.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/sarao/AndroidStudioProjects/Botoneameste/app/src/main/res/layout/activity_categoria3.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/sarao/AndroidStudioProjects/Botoneameste/app/src/main/res/layout/activity_inicio.xml" value="0.25" />
         <entry key="..\:/Users/sarao/AndroidStudioProjects/Botoneameste/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sarao/AndroidStudioProjects/Botoneameste/app/src/main/res/layout/activity_splash.xml" value="0.24452554744525548" />
+        <entry key="..\:/Users/sarao/AndroidStudioProjects/Botoneameste/app/src/main/res/menu/menu.xml" value="0.209375" />
       </map>
     </option>
   </component>

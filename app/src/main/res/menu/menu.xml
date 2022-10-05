@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opciones"
+        android:title="@string/Categorias"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/cat1"
+        android:title="Categoria 1"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/cat2"
+        android:title="Categoria 2"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/cat3"
+        android:title="Categoria 3"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+
+
+</menu>
