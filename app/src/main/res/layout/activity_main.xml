@@ -65,7 +65,168 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido1"
+                        android:id="@+id/sonidoHomero"
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:elevation="20dp"
+                            android:background="@drawable/homero_grito"
+                            android:scaleType="centerCrop" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/descargar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descargar"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center|bottom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sonidoNelson"
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:elevation="20dp"
+                            android:background="@drawable/nelson"
+                            android:scaleType="centerCrop" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/descargar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descargar"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center|bottom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout> <!--- TERMINO DEL ULTIMO LAYOUT -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sonidoBart"
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:elevation="20dp"
+                            android:background="@drawable/bart"
+                            android:scaleType="centerCrop" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/descargar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descargar"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center|bottom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sonidoSientate"
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:elevation="20dp"
+                            android:background="@drawable/sientate"
+                            android:scaleType="centerCrop" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/descargar4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descargar"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center|bottom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout> <!--- TERMINO DEL ULTIMO LAYOUT -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -99,7 +260,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido2"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -144,7 +304,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido3"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -178,7 +337,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido4"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -223,7 +381,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido5"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -257,7 +414,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido6"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -302,7 +458,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido7"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -336,165 +491,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido8"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        app:cardCornerRadius="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:elevation="20dp"
-                            android:background="@drawable/peru"
-                            android:scaleType="centerCrop" />
-
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Descargar"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center|bottom"
-                        android:textSize="20dp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-            </LinearLayout> <!--- TERMINO DEL ULTIMO LAYOUT -->
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginBottom="50dp"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido9"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        app:cardCornerRadius="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:elevation="20dp"
-                            android:background="@drawable/homero_grito"
-                            android:scaleType="centerCrop" />
-
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Descargar"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center|bottom"
-                        android:textSize="20dp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido10"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        app:cardCornerRadius="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:elevation="20dp"
-                            android:background="@drawable/peru"
-                            android:scaleType="centerCrop" />
-
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Descargar"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center|bottom"
-                        android:textSize="20dp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-            </LinearLayout> <!--- TERMINO DEL ULTIMO LAYOUT -->
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginBottom="50dp"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido11"
-                        android:layout_width="140dp"
-                        android:layout_height="130dp"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        app:cardCornerRadius="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:elevation="20dp"
-                            android:background="@drawable/homero_grito"
-                            android:scaleType="centerCrop" />
-
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Descargar"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center|bottom"
-                        android:textSize="20dp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido12"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -539,7 +535,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido13"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -573,7 +568,6 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/sonido14"
                         android:layout_width="140dp"
                         android:layout_height="130dp"
                         android:foreground="?android:attr/selectableItemBackground"

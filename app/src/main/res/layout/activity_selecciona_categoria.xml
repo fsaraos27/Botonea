@@ -67,6 +67,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cate3"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_gravity="center|left|bottom"
