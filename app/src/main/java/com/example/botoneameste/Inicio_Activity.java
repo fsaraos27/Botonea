@@ -18,7 +18,7 @@ public class Inicio_Activity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Inicio_Activity.this, MainActivity.class);
+                Intent intent = new Intent(Inicio_Activity.this, Selecciona_Categoria_Activity.class);
                 startActivity(intent);
                 finish();
             }
