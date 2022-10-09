@@ -15,7 +15,6 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
 
     //Variables
     CardView mbtnSonido1, mbtnSonido2, mbtnSonido3, mbtnSonido4;
-
     TextView mDescargar1, mDescargar2, mDescargar3, mDescargar4;
 
     //Sonidos de botones
@@ -49,7 +48,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
         mbtnGatoSonido4 = MediaPlayer.create(getApplicationContext(), R.raw.perro);
 
 
-        //Accion para cambiar de pantalla
+        //Accion para ejecutar sonido al presionar el boton
         mbtnSonido1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,7 +56,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
             }
         });
 
-        //Accion para cambiar de pantalla
+        //Accion para ejecutar sonido al presionar el boton
         mbtnSonido2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +64,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
             }
         });
 
-        //Accion para cambiar de pantalla
+        //Accion para ejecutar sonido al presionar el boton
         mbtnSonido3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -73,7 +72,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
             }
         });
 
-        //Accion para cambiar de pantalla
+        //Accion para ejecutar sonido al presionar el boton
         mbtnSonido4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -82,7 +81,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
         });
 
 
-        //Descargas
+        //Descarga de sonidos
         mDescargar1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -94,6 +93,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
             }
         });
 
+        //Descarga de sonidos
         mDescargar2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -105,6 +105,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
             }
         });
 
+        //Descarga de sonidos
         mDescargar3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -116,6 +117,7 @@ public class Categoria_Gatos_Activity extends AppCompatActivity {
             }
         });
 
+        //Descarga de sonidos
         mDescargar4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

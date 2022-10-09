@@ -15,6 +15,7 @@ public class Inicio_Activity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_inicio);
 
+        //Metodo para cambiarde pantalla automaticamente
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
