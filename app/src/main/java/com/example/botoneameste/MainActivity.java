@@ -5,10 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -98,10 +101,7 @@ public class MainActivity extends AppCompatActivity {
         mDescargar1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/1Y0J0CTImOV9HqLAOeYCM8MNm_Nskfa-n/view?usp=sharing";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+                showConfirmDescargar1();
 
             }
         });
@@ -109,10 +109,7 @@ public class MainActivity extends AppCompatActivity {
         mDescargar2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/16Ljar-iuu_YsJgw1EwTlm8qRU12kUQNh/view?usp=sharing";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+                showConfirmDescargar2();
 
             }
         });
@@ -120,10 +117,7 @@ public class MainActivity extends AppCompatActivity {
         mDescargar3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/1FPvIFqYQoU9DG8th1Ri-gCxj-es9jkfZ/view?usp=sharing";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+                showConfirmDescargar3();
 
             }
         });
@@ -131,16 +125,111 @@ public class MainActivity extends AppCompatActivity {
         mDescargar4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/1DkqZp2FBQISjxmHqVF0vL00WKWwSi6wY/view?usp=sharing";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+                showConfirmDescargar4();
 
             }
         });
 
 
+    }//termino de oncreate
+
+    private void showConfirmDescargar1() {
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("¿Quieres descargar el sonido?")
+                .setPositiveButton(Html.fromHtml("<font color='#000000'>Descargar" + "</font>"), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        descargar1();
+
+                    }
+                })
+                .setNegativeButton(Html.fromHtml("<font color='#673AB7'>Cancelar" + "</font>"), null)
+                .show();
+
     }
+
+    private void showConfirmDescargar2() {
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("¿Quieres descargar el sonido?")
+                .setPositiveButton(Html.fromHtml("<font color='#000000'>Descargar" + "</font>"), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        descargar2();
+
+                    }
+                })
+                .setNegativeButton(Html.fromHtml("<font color='#673AB7'>Cancelar" + "</font>"), null)
+                .show();
+
+    }
+
+    private void showConfirmDescargar3() {
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("¿Quieres descargar el sonido?")
+                .setPositiveButton(Html.fromHtml("<font color='#000000'>Descargar" + "</font>"), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        descargar3();
+
+                    }
+                })
+                .setNegativeButton(Html.fromHtml("<font color='#673AB7'>Cancelar" + "</font>"), null)
+                .show();
+
+    }
+
+    private void showConfirmDescargar4() {
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("¿Quieres descargar el sonido?")
+                .setPositiveButton(Html.fromHtml("<font color='#000000'>Descargar" + "</font>"), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        descargar4();
+
+                    }
+                })
+                .setNegativeButton(Html.fromHtml("<font color='#673AB7'>Cancelar" + "</font>"), null)
+                .show();
+
+    }
+
+
+
+    //Metodos para descargar sonido
+    private void descargar1() {
+        String url = "https://drive.google.com/file/d/1Y0J0CTImOV9HqLAOeYCM8MNm_Nskfa-n/view?usp=sharing";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+
+    private void descargar2() {
+        String url = "https://drive.google.com/file/d/16Ljar-iuu_YsJgw1EwTlm8qRU12kUQNh/view?usp=sharing";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+
+    private void descargar3() {
+        String url = "https://drive.google.com/file/d/1FPvIFqYQoU9DG8th1Ri-gCxj-es9jkfZ/view?usp=sharing";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+
+    private void descargar4() {
+        String url = "https://drive.google.com/file/d/1DkqZp2FBQISjxmHqVF0vL00WKWwSi6wY/view?usp=sharing";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+
+
+
+
 
     public boolean onCreateOptionsMenu(@NonNull Menu menu){
         MenuInflater inflater = getMenuInflater();
